@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "PTSans","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+    color: #333;
+    background-color: #f6f6f6;
+
+}
+
+
+.cart{
+    border-radius: 4px;
+    box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1);
+    width: 77%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    position: relative;
+    background-color: #fff;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 15px;
+    margin:0 11.5% 0 11.5%;
+    margin-bottom: 25px;
+}
+.cart_h{
+    font-size: 17px;
+    line-height: 1.42857;
+    color: #333;
+    text-align: center;
+}
+
+.cart_p{
+    font-size: 16px;
+    line-height: 1.42857;
+    color: #333; 
+    text-align: center;
+}
+.sliderrr{
+    margin-top: 6.5vw;
+    float: left;
+
+
+}
+
+
+.footer{
+    width: 100%;
+    height: 8.7vw;
+    background-color: #0c1d33;
+    float: left;
+}
+.footer_bl1{
+    width: 70vw;
+    height: 100%;
+    padding-left: 2.5vw;
+    float: left;
+}
+
+.footer_bl1 h3{
+    color: #fff;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+}
+
+.footer_bl1 p{
+    color: #fff;
+    font-size: 1.3vw;
+    padding-top: 0.6vw;
+    padding-left: 2vw;
+}
+
+.footer_bl2{
+    width: 15vw;
+    height: 100%;
+    padding-left: 2.5vw;
+    float: left;
+}
+
+.footer_bl2 h3{
+    color: #fff;
+    font-size: 1.5vw;
+    padding-top: 1.5vw;
+}
+
+.socset{
+    width: 15vw;
+    height: 3vw;
+}
+
+.vk{
+    width: 2.6vw;
+    height: 2.6vw;
+    background: url(img/s1200.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.89;
+    margin-top: 0.46vw;
+    float: left;
+}
+.twitter{
+    width: 3vw;
+    height: 3vw;
+    background:  url(img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.89;
+    margin-top: 0.3vw;
+    margin-left: 1vw;
+    float: left;
+}
+.inst{
+    width: 4.5vw;
+    height: 2.36vw;
+    background: url(img/inst.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.89;
+    margin-top: 0.6vw;
+    float: left;
+}
+.fase{
+    width: 2.7vw;
+    height: 2.7vw;
+    background: url(img/fase.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.89;
+    margin-top: 0.4vw;
+    margin-left: 1vw;
+    float: left;
+}
+
+.adap{
+    width: 79%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.adapvnutry{
+    width: 25%;
+    float: left;
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1600px){
+    .adapvnutry{
+        width: 25%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px){
+    .adapvnutry{
+        width: 33.3%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+    .adapvnutry{
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+    .adapvnutry{
+        width: 100%;
+        float: left;
+    }
+}
