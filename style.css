@@ -15,6 +15,8 @@ body{
 }
 
 
+
+
 .cart{
     border-radius: 4px;
     box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1);
@@ -42,9 +44,11 @@ body{
     color: #333; 
     text-align: center;
 }
-.sliderrr{
-    margin-top: 6.5vw;
+#sliderrr{
     float: left;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
 
 
 }
@@ -139,18 +143,28 @@ body{
 }
 
 .adap{
-    width: 79%;
-    margin: auto;
-    margin-top: 25px;
+    width: 80%;
+    float: left;
+    margin: 25px 10% 0 10%;
 }
 
 .adapvnutry{
     width: 25%;
-    float: left;
 }
 
+.sliderrrrrrrr{
+    float: left;
+    width: 100%;
+    height: 100%;
+    z-index: 1212121;
 
-@media screen and (min-width: 1025px) and (max-width: 1600px){
+}
+
+.bx-pager{
+    display: none;
+}
+
+@media screen and (min-width: 1025px){
     .adapvnutry{
         width: 25%;
         float: left;
@@ -176,4 +190,45 @@ body{
         width: 100%;
         float: left;
     }
+}
+
+
+
+.img_prosmotr {
+    width: 51.7vw;
+    height: 41vw;
+    position: fixed;
+    left: 21.5vw;
+    top: 5vw;
+    float: left;
+    z-index: 3;
+
+}
+.img_prosmotr_zakr{
+    width: 2vw;
+    height: 2vw;
+    float: right;
+    background: url(img/Xcircle2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+
+.prosmotr_1,.prosmotr_2,.prosmotr_3,.prosmotr_4,.prosmotr_5,.prosmotr_6,.prosmotr_7,.prosmotr_8,.prosmotr_9,.prosmotr_10,.prosmotr_11,.prosmotr_12{
+    display: none;
+}
+
+
+.cart_img1{
+    width: 100%;
+    height: 11.7vw;
+    background: url(img/drew_grec/1_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.blockslid{
+    width: 1000px;
+    height: 600px;
 }
