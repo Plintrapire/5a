@@ -157,6 +157,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 1212121;
+    margin-bottom: 0;
 
 }
 
@@ -164,10 +165,47 @@ body{
     display: none;
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1401px) and (max-width: 3600px){
+    .adapvnutry{
+        width: 20%;
+        float: left;
+    }
+    .logo{
+        width: 362px;
+        height: 112px;
+        float: left;
+        margin-top: 0.5vw;
+        margin-left: 3vw;
+        background: url(img/logo1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .blockinfo{
+        width: 71%;
+        float: right;
+        margin-top: 2vw;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1400px){
     .adapvnutry{
         width: 25%;
         float: left;
+    }
+    .logo{
+        width: 285px;
+        height: 90px;
+        float: left;
+        margin-top: 0.5vw;
+        margin-left: 3vw;
+        background: url(img/logo1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .blockinfo{
+        width: 64%;
+        float: right;
+        margin-top: 2vw;
     }
 }
 
@@ -176,6 +214,21 @@ body{
         width: 33.3%;
         float: left;
     }
+    .logo{
+        width: 22%;
+        height: 90px;
+        float: left;
+        margin-top: 0.5vw;
+        margin-left: 3vw;
+        background: url(img/logo1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+        .blockinfo{
+        width: 71%;
+        float: right;
+        margin-top: 2vw;
+    }
 }
 
 @media screen and (min-width: 401px) and (max-width: 800px){
@@ -183,12 +236,44 @@ body{
         width: 50%;
         float: left;
     }
+    .logo{
+        width: 22%;
+        height: 62px;
+        float: left;
+        margin-top: 0.5vw;
+        margin-left: 3vw;
+        background: url(img/logo1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: none;
+    }
+    .blockinfo{
+        width: 90%;
+        float: right;
+        margin-top: 3vw;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 400px){
     .adapvnutry{
         width: 100%;
         float: left;
+    }
+    .logo{
+        width: 22%;
+        height: 57px;
+        float: left;
+        margin-top: 0.5vw;
+        margin-left: 3vw;
+        background: url(img/logo1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: none;
+    }
+    .blockinfo{
+        width: 71%;
+        float: right;
+        margin-top: 3vw;
     }
 }
 
@@ -221,7 +306,6 @@ body{
 
 .cart_img1{
     width: 100%;
-    height: 11.7vw;
     background: url(img/drew_grec/1_1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -231,4 +315,34 @@ body{
 .blockslid{
     width: 1000px;
     height: 600px;
+}
+
+.bx-wrapper{
+    margin-bottom: 0;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 130px;
+    background: url(img/uzory3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    border-bottom: 3px solid #9EC1D4;
+
+}
+
+
+
+.blockinfo h3{
+    font-size: 19px;
+    line-height: 1.42857;
+    color: #333;
+}
+
+.blockinfo p{
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #333; 
 }
